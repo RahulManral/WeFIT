@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        'xs': '360px',    // Custom screen size for XS
         '4xl': '1920px',  // Custom screen size for 4XL
         '5xl': '2560px',  // Custom screen size for 5XL
         '6xl': '3840px',  // Custom screen size for 6XL
@@ -25,5 +26,6 @@ export default {
     },
   },
   plugins: [],
+  
 }
 

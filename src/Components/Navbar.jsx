@@ -15,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-white p-3 m-6 rounded-2xl shadow-xl border-2 border-grey font-custom">
+    <nav className="bg-white p-3 m-6 rounded-2xl shadow-xl border-2 border-grey font-custom xs:m-4 lg:m-6 xl:m-6 2xl:m-6 3xl:m-6">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-black text-3xl font-bold">WeFIT</div>
         <div className="hidden md:flex space-x-8 text-xl font-extrabold">
@@ -66,4 +66,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
 

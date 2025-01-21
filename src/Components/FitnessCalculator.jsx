@@ -60,7 +60,7 @@ export default function FitnessCalculator() {
   }
 
   return (
-    <div className=" flex-col justify-center sm:py-12 md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl  flex items-center bg-white m-6 rounded-xl ">
+    <div className=" flex-col justify-center sm:py-12 md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl  flex items-center bg-white m-6 rounded-xl xs:m-4 lg:m-6 xl:m-6 2xl:m-6 3xl:m-6 ">
             {!analysis ? (
               <FitnessForm onSubmit={calculateFitness} />
             ) : (

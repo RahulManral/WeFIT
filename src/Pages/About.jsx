@@ -70,8 +70,8 @@ const About = () => {
   };
 
   return (
-    <div className="justify-center p-4 md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl flex items-center bg-gray-100 m-6 rounded-xl border-4 border-black">
-      <div className="flex flex-col items-center justify-center mb-6 w-full max-w-screen-xl">
+    <div className="justify-center p-4 md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl flex items-center bg-gray-100 m-6 rounded-xl border-4 border-black xs:m-4 lg:m-6 xl:m-6 2xl:m-6 3xl:m-6">
+      <div className="flex flex-col items-center justify-center mb-10 w-full max-w-screen-xl mt-2 ">
         <motion.h1
           className="text-4xl font-bold text-gray-800 mb-5 text-center"
           initial={{ opacity: 0, y: -20 }} // Initial state for the heading
@@ -81,7 +81,7 @@ const About = () => {
           About Us
         </motion.h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xs:gap-10 xl:gap-16 lg:gap-16 w-full">
           {cards.map((card, index) => (
             <motion.div
               key={index}

@@ -245,7 +245,7 @@ export default function FitnessForm({ onSubmit }) {
   };
 
   return (
-    <div className="md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl flex items-center bg-white m-6 rounded-xl border-4 border-black">
+    <div className="md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl flex items-center bg-white m-6 rounded-xl border-4 border-black xs:m-4 lg:m-6 xl:m-6 2xl:m-6 3xl:m-6">
       <motion.form
         onSubmit={handleSubmit}
         className="space-y-4 flex flex-col justify-center mx-auto px-6 py-4 rounded-xl bg-white"
