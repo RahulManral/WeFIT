@@ -72,7 +72,7 @@ const Home = () => {
         </motion.p>
         <Link to="/fitnesscalculator">
           <motion.button
-            className=" border-4 py-4 px-10 text-xl font-semibold rounded-2xl bg-black text-white mt-5 hover:bg-white hover:text-black border-black transition duration-300 ease-in-out font-custom"
+            className=" border-4 py-4 px-10   xs:text-lg lg:text-xl xl:text-xl 2xl:text-xl 3xl:text-xl font-semibold rounded-2xl bg-black text-white mt-5 hover:bg-white hover:text-black border-black transition duration-300 ease-in-out font-custom"
             initial="hidden"
             animate="visible"
             variants={variants}
