@@ -21,7 +21,7 @@ export default {
         'custom-height-2xl': '720px'
       },
       fontFamily:{
-        custom: ['Nunito', 'serif']  ,
+        custom: ['Fredoka', 'serif']  ,
       },
     },
   },

@@ -53,7 +53,7 @@ const About = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }} // Delay based on index for staggered effect
             >
               <img src={card.imageUrl} alt={card.title} className="w-32 h-32 object-cover rounded-t-lg mb-4" />
-              <h2 className="text-xl font-semibold text-gray-800 text-center">{card.title}</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 text-center">{card.title}</h2>
               <p className="text-lg text-gray-600 mt-2 text-center">{card.content}</p>
             </motion.div>
           ))}
