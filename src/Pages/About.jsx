@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './temp.css';
+import './background.css';
 import image1 from '../Images/mission.png';
 import image2 from '../Images/tools.png';
 import image3 from '../Images/join.png';
@@ -31,7 +31,7 @@ const About = () => {
   };
 
   return (
-    <div className="justify-center p-4 md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl flex items-center bg-gray-100 m-6 rounded-xl border-4 border-black xs:m-4 lg:m-6 xl:m-6 2xl:m-6 3xl:m-6 font-custom">
+    <div className="justify-center p-4 md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl flex items-center bg-gray-100 m-6 rounded-xl xs:m-4 lg:m-6 xl:m-6 2xl:m-6 3xl:m-6 font-custom">
       <div className="flex flex-col items-center justify-center mb-10 w-full max-w-screen-xl xs:mt-2 lg:mt-4 xl:mt-5">
         <motion.h1
           className="text-4xl font-bold text-gray-800 mb-5 text-center"
