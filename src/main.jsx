@@ -6,6 +6,7 @@ import Layout from './Components/Layout.jsx'
 import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
 import FitnessCalculator from './Components/FitnessCalculator.jsx'
+import NotFound from './Pages/NotFound.jsx'
 
 
 const router = createBrowserRouter(
@@ -14,6 +15,7 @@ createRoutesFromElements(
     <Route path='/' element={<Home />} />
     <Route path='/about' element={<About />} />
     <Route path='/fitnesscalculator' element={< FitnessCalculator/>} />
+    <Route path='*' element={< NotFound/>} />
   </Route>
 )
 );
