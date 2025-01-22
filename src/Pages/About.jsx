@@ -49,17 +49,17 @@ const About = () => {
     {
       title: "Our Vision",
       content: "At We-Fit, we envision a world where everyone has access to the resources they need to lead a healthier lifestyle. We believe that fitness should be accessible, enjoyable, and tailored to each individual's needs.",
-      imageUrl: "/src/assets/mission.png",
+      imageUrl: "/src/Images/mission.png",
     },
     {
       title: "Our Tools",
       content: "Our website offers a variety of fitness calculators, including BMI, calorie tracking, and workout planning tools. These resources are designed to help you track your progress and make informed decisions about your health.",
-      imageUrl: "/src/assets/tools.png",
+      imageUrl: "/src/Images/tools.png",
     },
     {
       title: "Join Us",
       content: "Join our community of fitness enthusiasts, share your journey, and get inspired by others. Together, we can achieve our health goals and motivate each other to stay fit and healthy!",
-      imageUrl: "/src/assets/join.png",
+      imageUrl: "/src/Images/join.png",
     },
   ];
 
