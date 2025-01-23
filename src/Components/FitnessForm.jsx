@@ -28,9 +28,9 @@ export default function FitnessForm({ onSubmit }) {
       <motion.form
         onSubmit={handleSubmit}
         className="space-y-4 flex flex-col justify-center mx-auto px-6 py-4 rounded-xl bg-white"
-        initial={{ opacity: 0, y: 10 }} // Initial state for the form
-        animate={{ opacity: 1, y: 0 }}   // Final state for the form
-        transition={{ duration: 0.4 }}     // Animation duration
+        initial={{ opacity: 0, y: 10 }} 
+        animate={{ opacity: 1, y: 0 }}   
+        transition={{ duration: 0.4 }}  
       >
         <div>
           <label htmlFor="height" className="block text-lg font-medium text-black">Height (cm)</label>

@@ -38,7 +38,7 @@ export default function FitnessCalculator() {
         "Consult with a healthcare professional for a personalized weight loss plan. Focus on creating a sustainable calorie deficit and increasing physical activity."
     }
 
-    // Calculate daily calorie needs (using Harris-Benedict equation)
+ 
     let bmr
     if (gender === "male") {
       bmr = 88.362 + 13.397 * weightInKg + 4.799 * Number.parseFloat(height) - 5.677 * ageInYears

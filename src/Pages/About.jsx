@@ -24,7 +24,7 @@ const About = () => {
     },
   ];
 
-  // Define the animation variants for cards
+
   const cardVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
@@ -35,9 +35,9 @@ const About = () => {
       <div className="flex flex-col items-center justify-center mb-10 w-full max-w-screen-xl xs:mt-2 lg:mt-4 xl:mt-5">
         <motion.h1
           className="text-4xl font-bold text-gray-800 mb-5 text-center"
-          initial={{ opacity: 0, y: -20 }} // Initial state for the heading
-          animate={{ opacity: 1, y: 0 }}    // Final state for the heading
-          transition={{ duration: 0.5 }}     // Transition properties
+          initial={{ opacity: 0, y: -20 }} 
+          animate={{ opacity: 1, y: 0 }}    
+          transition={{ duration: 0.5 }}  
         >
           About Us
         </motion.h1>
@@ -50,7 +50,7 @@ const About = () => {
               initial="hidden"
               animate="visible"
               variants={cardVariants}
-              transition={{ duration: 0.5, delay: index * 0.1 }} // Delay based on index for staggered effect
+              transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <img src={card.imageUrl} alt={card.title} className="w-32 h-32 object-cover rounded-t-lg mb-4" />
               <h2 className="text-2xl font-semibold text-gray-900 text-center">{card.title}</h2>

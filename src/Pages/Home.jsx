@@ -1,43 +1,11 @@
-// import React from 'react';
-// import './temp.css'
-
-
-// const Home = () => {
-//   return (
-
-
-//     <div className="md:h-custom-height-lg lg:h-custom-height-lg xl-custom-height-xl 2xl:h-custom-height-lg 4xl:h-custom-height-2xl  flex items-center bg-gray-100 m-6 rounded-xl border-4 border-black">
-//     <main className="flex flex-col items-center justify-center w-full flex-1 px-20 mb-20">
-//       <h1 className="text-6xl  font-extrabold font-custom">
-//         Welcome to your Fitness Guidance Calculator
-//       </h1>
-//       <p className="mt-3 text-2xl font-custom">
-//         Get personalized fitness advice based on your body metrics
-//       </p>
-//       <button className='border-2 py-4 px-10 text-lg font-bold rounded-2xl bg-black text-white mt-5'>Start Calculator</button>
-      
-//     </main>
-//   </div>
-//   );
-// };
-
-// export default Home;
-
-
-
-
-
-
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import './background.css';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-  // Define the animation variants with a bounce effect
   const variants = {
-    hidden: { y: '20%', opacity: 0, scale: 1 }, // Start slightly below and smaller
+    hidden: { y: '20%', opacity: 0, scale: 1 }, 
     visible: { 
       y: 0, 
       opacity: 1, 
